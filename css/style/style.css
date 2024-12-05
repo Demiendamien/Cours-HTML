@@ -1,0 +1,46 @@
+header{
+    background-color: black ;
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+nav ul li {
+    margin: 0 16px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    
+}
+nav a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+section {
+    margin-top: 20px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: 500px;
+}
+.div1{
+    margin: auto;
+    text-align: center;
+}
+.div2{
+    margin: auto;
+}
+
+
